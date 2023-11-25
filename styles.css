@@ -1,0 +1,217 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header, footer {
+    background: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);;
+    padding: 10px;
+    color: white;
+
+}
+.header{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+padding: 0;
+}
+.logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust the maximum height as needed */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #e5412c;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+span .contact-narytha{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+span .contact-narytha:hover{
+    color: rgb(23, 22, 22);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.display-services{
+
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h2.fw-normal, a.fw-normal{
+    color: #e5412c;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+}
+h2.fw-normal:hover, a.fw-normal:hover{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+}
+.braid-div{
+    text-align: center;
+}
+.braids-display{
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+}
+.cleaning-div{
+    text-align: center;
+}
+.cleaning-display{
+    border-radius: 50%;
+    height: 200px; 
+    width: 200px; 
+}
+.hair-div{
+    text-align: center;
+}
+.hair-display{
+    border-radius: 50%;
+    height: 200px;  
+}
+.braids-images{
+  margin: 50px;
+}
+svg{
+    margin: 5px;
+}
+.braid-heading{
+    text-align: center;
+    margin: 30px;
+}
+.expanding-cards{
+    display: flex;
+    width: 90vw;
+}
+.panel{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 43px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition:flex 0.7s ease-in ;
+}
+.panel.active{
+    flex: 5;
+    }
+    @media(max-width: 480px){
+        .container{
+            width: 100vw;
+        }
+        .panel:nth-of-type(4),.panel:nth-of-type(5),.panel:nth-of-type(6){
+            display: none;
+        }
+    }
+
+    .whatsapp-tag{
+        color: green;
+        
+    }
+    .email-tag{
+        color: orange;
+    }
+    .availability .sunday-time{
+        color: grey;
+        display: block;
+        
+    }
+    .monday-time{
+        color: orange;
+    }
+    .hairServices-offered{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .events-offered{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .event-list{
+        text-align: center;
+        list-style:none;
+        font-size: 20px;
+    }
+    .hair-list{
+        text-align: center;
+        list-style:none;
+        font-size: 20px;
+    }
+    .hair-list li{
+        padding: 20px;
+        margin: 0;
+    }
+    .event-list li{
+        padding: 20px;
+    }
+    .hair-price{
+        text-align: center;
+        list-style:none;
+        font-size: 20px;
+    }
+    .hair-price li{
+        padding: 20px;
+    }
+    .warning{
+        color: red;
+        text-align: center;
+    }
+    .event-heading{
+        text-align: center;
+    }
+  
+    @media (max-width:600px){
+        .hair-price li{
+            padding-top: 31px;
+        }
+        .hair-list li{
+            
+            padding-top: 15px;
+            margin: 0;
+            padding-bottom: 25px;
+        }
+        body{
+            margin: 0;
+        }
+
+        html,body{
+            overflow-x: hidden;
+        }
+        .narytha-service{
+            padding-top: 25px;
+        }
+        .second{
+          padding-bottom: 0;
+        }
+        .third{
+            padding: 0;
+        }
+    }
